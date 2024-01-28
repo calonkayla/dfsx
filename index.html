@@ -24,7 +24,8 @@
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 300px;
+            width: 80%;
+            max-width: 400px;
             text-align: center;
         }
 
@@ -42,12 +43,13 @@
         }
 
         form input {
-            width: 100%;
+            width: calc(100% - 24px);
             padding: 12px;
             margin-bottom: 15px;
             box-sizing: border-box;
             border: 1px solid #ccc;
             border-radius: 4px;
+            display: inline-block;
         }
 
         #login {
@@ -57,6 +59,7 @@
             border: none;
             border-radius: 4px;
             cursor: pointer;
+            width: calc(100% - 24px);
         }
 
         #login:hover {
