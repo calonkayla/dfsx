@@ -43,13 +43,15 @@
         }
 
         form input {
-            width: calc(100% - 24px);
+            width: 100%;
             padding: 12px;
             margin-bottom: 15px;
             box-sizing: border-box;
             border: 1px solid #ccc;
             border-radius: 4px;
-            display: inline-block;
+            display: block;
+            box-sizing: border-box;
+            margin: 0 auto 15px auto;
         }
 
         #login {
@@ -59,7 +61,8 @@
             border: none;
             border-radius: 4px;
             cursor: pointer;
-            width: calc(100% - 24px);
+            width: 100%;
+            display: block;
         }
 
         #login:hover {
